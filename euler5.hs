@@ -12,5 +12,7 @@ allDivisible val divisor =
 	else
 		allDivisible (val+20) 20
 
+-- Driver program. Accepts an int value that represents te highest number we should consider when finding our value.
+-- For the purpose of the euler problem, this isn't used.
 smallestDivisibleNum x =
 	allDivisible 20 20 
