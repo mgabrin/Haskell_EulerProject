@@ -1,5 +1,6 @@
 largestPalindrome :: Int -> Int
 checkPalindrome :: Int -> Bool
+findPalindrome :: Int -> Int -> Int -> Int
 
 -- Simple function that will check if a value is a palindrome
 checkPalindrome val =
